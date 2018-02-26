@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">玫瑰經</string>
+    <string name="joyful_title">歡喜奧蹟</string>
+    <string name="joyful_subtitle">(週一、六)</string>
+    <string name="sorrowful_subtitle">(週二、五)</string>
+    <string name="glorious_subtitle">(週三、主日)</string>
+    <string name="luminous_subtitle">(週四)</string>
+    <string name="sorrowful_title">痛苦奧蹟</string>
+    <string name="glorious_title">榮福奧蹟</string>
+    <string name="luminous_title">光明奧蹟</string>
+</resources>

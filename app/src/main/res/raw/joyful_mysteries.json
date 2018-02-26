@@ -1,0 +1,201 @@
+{
+  "name": "歡喜奧蹟",
+  "recordings": [
+    {
+      "_comment": "******************* 歡喜一端",
+      "name": "十字聖號與信經",
+      "audio": "a0",
+      "picture": "p11",
+      "repeat": 1
+    },
+    {
+      "name": "天主經",
+      "audio": "a1",
+      "picture": "p11",
+      "repeat": 1
+    },
+    {
+      "name": "聖母經",
+      "audio": "a2",
+      "picture": "p11",
+      "repeat": 3
+    },
+    {
+      "name": "聖三光榮經",
+      "audio": "a3",
+      "picture": "p11",
+      "repeat": 1
+    },
+    {
+      "name": "歡喜一端",
+      "audio": "a11",
+      "picture": "p11",
+      "repeat": 1
+    },
+    {
+      "name": "天主經",
+      "audio": "a1",
+      "picture": "p11",
+      "repeat": 1
+    },
+    {
+      "name": "聖母經",
+      "audio": "a2",
+      "picture": "p11",
+      "repeat": 10
+    },
+    {
+      "name": "聖三光榮經",
+      "audio": "a3",
+      "picture": "p11",
+      "repeat": 1
+    },
+    {
+      "name": "法蒂瑪聖母禱詞",
+      "audio": "a4",
+      "picture": "p11",
+      "repeat": 1
+    },
+
+
+    {
+      "_comment": "******************* 歡喜二端",
+      "name": "歡喜二端",
+      "audio": "a12",
+      "picture": "p12",
+      "repeat": 1
+    },
+    {
+      "name": "天主經",
+      "audio": "a1",
+      "picture": "p12",
+      "repeat": 1
+    },
+    {
+      "name": "聖母經",
+      "audio": "a2",
+      "picture": "p12",
+      "repeat": 10
+    },
+    {
+      "name": "聖三光榮經",
+      "audio": "a3",
+      "picture": "p12",
+      "repeat": 1
+    },
+    {
+      "name": "法蒂瑪聖母禱詞",
+      "audio": "a4",
+      "picture": "p12",
+      "repeat": 1
+    },
+
+
+
+
+    {
+      "_comment": "******************* 歡喜三端",
+      "name": "歡喜三端",
+      "audio": "a13",
+      "picture": "p13",
+      "repeat": 1
+    },
+    {
+      "name": "天主經",
+      "audio": "a1",
+      "picture": "p13",
+      "repeat": 1
+    },
+    {
+      "name": "聖母經",
+      "audio": "a2",
+      "picture": "p13",
+      "repeat": 10
+    },
+    {
+      "name": "聖三光榮經",
+      "audio": "a3",
+      "picture": "p13",
+      "repeat": 1
+    },
+    {
+      "name": "法蒂瑪聖母禱詞",
+      "audio": "a4",
+      "picture": "p13",
+      "repeat": 1
+    },
+
+
+    {
+      "_comment": "******************* 歡喜四端",
+      "name": "歡喜四端",
+      "audio": "a14",
+      "picture": "p14",
+      "repeat": 1
+    },
+    {
+      "name": "天主經",
+      "audio": "a1",
+      "picture": "p14",
+      "repeat": 1
+    },
+    {
+      "name": "聖母經",
+      "audio": "a2",
+      "picture": "p14",
+      "repeat": 10
+    },
+    {
+      "name": "聖三光榮經",
+      "audio": "a3",
+      "picture": "p14",
+      "repeat": 1
+    },
+    {
+      "name": "法蒂瑪聖母禱詞",
+      "audio": "a4",
+      "picture": "p14",
+      "repeat": 1
+    },
+
+
+    {
+      "_comment": "******************* 歡喜五端",
+      "name": "歡喜五端",
+      "audio": "a15",
+      "picture": "p15",
+      "repeat": 1
+    },
+    {
+      "name": "天主經",
+      "audio": "a1",
+      "picture": "p15",
+      "repeat": 1
+    },
+    {
+      "name": "聖母經",
+      "audio": "a2",
+      "picture": "p15",
+      "repeat": 10
+    },
+    {
+      "name": "聖三光榮經",
+      "audio": "a3",
+      "picture": "p15",
+      "repeat": 1
+    },
+    {
+      "name": "法蒂瑪聖母禱詞",
+
+      "audio": "a4",
+      "picture": "p15",
+      "repeat": 1
+    },
+    {
+      "name": "結束禱文",
+      "audio": "a5",
+      "picture": "p5",
+      "repeat": 1
+    }
+  ]
+}
