@@ -1,198 +1,198 @@
-﻿{
-  "name": "榮福奧蹟",
+{
+  "name": "荣福奥迹",
   "recordings": [
     {
-      "_comment": "******************* 榮福一端",
-      "title": "榮福一端",
-      "name": "十字聖號與信經",
+      "_comment": "******************* 荣福一端",
+      "title": "荣福一端",
+      "name": "十字圣号与信经",
       "audio": "a0",
       "picture": "p31",
       "repeat": 1
     },
     {
-      "name": "榮福奧蹟",
+      "name": "荣福奥迹",
       "audio": "a04",
       "picture": "p21",
       "repeat": 1
     },
     {
-      "name": "天主經",
+      "name": "天主经",
       "audio": "a1",
       "picture": "p31",
       "repeat": 1
     },
     {
-      "name": "聖母經",
+      "name": "圣母经",
       "audio": "a2",
       "picture": "p31",
       "repeat": 3
     },
     {
-      "name": "聖三光榮經",
+      "name": "圣三光荣经",
       "audio": "a3",
       "picture": "p31",
       "repeat": 1
     },
     {
-      "name": "榮福一端",
+      "name": "荣福一端",
       "audio": "a31",
       "picture": "p31",
       "repeat": 1
     },
     {
-      "name": "天主經",
+      "name": "天主经",
       "audio": "a1",
       "picture": "p31",
       "repeat": 1
     },
     {
-      "name": "聖母經",
+      "name": "圣母经",
       "audio": "a2",
       "picture": "p31",
       "repeat": 10
     },
     {
-      "name": "聖三光榮經",
+      "name": "圣三光荣经",
       "audio": "a3",
       "picture": "p31",
       "repeat": 1
     },
     {
-      "name": "法蒂瑪聖母禱詞",
+      "name": "法蒂玛圣母祷词",
       "audio": "a4",
       "picture": "p31",
       "repeat": 1
     },
     {
-      "_comment": "******************* 榮福二端",
-      "title": "榮福二端",
-      "name": "榮福二端",
+      "_comment": "******************* 荣福二端",
+      "title": "荣福二端",
+      "name": "荣福二端",
       "audio": "a32",
       "picture": "p32",
       "repeat": 1
     },
     {
-      "name": "天主經",
+      "name": "天主经",
       "audio": "a1",
       "picture": "p32",
       "repeat": 1
     },
     {
-      "name": "聖母經",
+      "name": "圣母经",
       "audio": "a2",
       "picture": "p32",
       "repeat": 10
     },
     {
-      "name": "聖三光榮經",
+      "name": "圣三光荣经",
       "audio": "a3",
       "picture": "p32",
       "repeat": 1
     },
     {
-      "name": "法蒂瑪聖母禱詞",
+      "name": "法蒂玛圣母祷词",
       "audio": "a4",
       "picture": "p32",
       "repeat": 1
     },
     {
-      "_comment": "******************* 榮福三端",
-      "title": "榮福三端",
-      "name": "榮福三端",
+      "_comment": "******************* 荣福三端",
+      "title": "荣福三端",
+      "name": "荣福三端",
       "audio": "a33",
       "picture": "p33",
       "repeat": 1
     },
     {
-      "name": "天主經",
+      "name": "天主经",
       "audio": "a1",
       "picture": "p33",
       "repeat": 1
     },
     {
-      "name": "聖母經",
+      "name": "圣母经",
       "audio": "a2",
       "picture": "p33",
       "repeat": 10
     },
     {
-      "name": "聖三光榮經",
+      "name": "圣三光荣经",
       "audio": "a3",
       "picture": "p33",
       "repeat": 1
     },
     {
-      "name": "法蒂瑪聖母禱詞",
+      "name": "法蒂玛圣母祷词",
       "audio": "a4",
       "picture": "p33",
       "repeat": 1
     },
     {
-      "_comment": "******************* 榮福四端",
-      "title": "榮福四端",
-      "name": "榮福四端",
+      "_comment": "******************* 荣福四端",
+      "title": "荣福四端",
+      "name": "荣福四端",
       "audio": "a34",
       "picture": "p34",
       "repeat": 1
     },
     {
-      "name": "天主經",
+      "name": "天主经",
       "audio": "a1",
       "picture": "p34",
       "repeat": 1
     },
     {
-      "name": "聖母經",
+      "name": "圣母经",
       "audio": "a2",
       "picture": "p34",
       "repeat": 10
     },
     {
-      "name": "聖三光榮經",
+      "name": "圣三光荣经",
       "audio": "a3",
       "picture": "p34",
       "repeat": 1
     },
     {
-      "name": "法蒂瑪聖母禱詞",
+      "name": "法蒂玛圣母祷词",
       "audio": "a4",
       "picture": "p34",
       "repeat": 1
     },
     {
-      "_comment": "******************* 榮福五端",
-      "title": "榮福五端",
-      "name": "榮福五端",
+      "_comment": "******************* 荣福五端",
+      "title": "荣福五端",
+      "name": "荣福五端",
       "audio": "a35",
       "picture": "p35",
       "repeat": 1
     },
     {
-      "name": "天主經",
+      "name": "天主经",
       "audio": "a1",
       "picture": "p35",
       "repeat": 1
     },
     {
-      "name": "聖母經",
+      "name": "圣母经",
       "audio": "a2",
       "picture": "p35",
       "repeat": 10
     },
     {
-      "name": "聖三光榮經",
+      "name": "圣三光荣经",
       "audio": "a3",
       "picture": "p35",
       "repeat": 1
     },
     {
-      "name": "法蒂瑪聖母禱詞",
+      "name": "法蒂玛圣母祷词",
       "audio": "a4",
       "picture": "p35",
       "repeat": 1
     },
     {
-      "name": "結束禱文",
+      "name": "结束祷文",
       "audio": "a5",
       "picture": "p5",
       "repeat": 1

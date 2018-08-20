@@ -3,8 +3,15 @@
   "recordings": [
     {
       "_comment": "******************* 歡喜一端",
+      "title": "歡喜一端",
       "name": "十字聖號與信經",
       "audio": "a0",
+      "picture": "p11",
+      "repeat": 1
+    },
+    {
+      "name": "歡喜奧蹟",
+      "audio": "a01",
       "picture": "p11",
       "repeat": 1
     },
@@ -56,10 +63,9 @@
       "picture": "p11",
       "repeat": 1
     },
-
-
     {
       "_comment": "******************* 歡喜二端",
+      "title": "歡喜二端",
       "name": "歡喜二端",
       "audio": "a12",
       "picture": "p12",
@@ -89,12 +95,9 @@
       "picture": "p12",
       "repeat": 1
     },
-
-
-
-
     {
       "_comment": "******************* 歡喜三端",
+      "title": "歡喜三端",
       "name": "歡喜三端",
       "audio": "a13",
       "picture": "p13",
@@ -124,10 +127,9 @@
       "picture": "p13",
       "repeat": 1
     },
-
-
     {
       "_comment": "******************* 歡喜四端",
+      "title": "歡喜四端",
       "name": "歡喜四端",
       "audio": "a14",
       "picture": "p14",
@@ -157,10 +159,9 @@
       "picture": "p14",
       "repeat": 1
     },
-
-
     {
       "_comment": "******************* 歡喜五端",
+      "title": "歡喜五端",
       "name": "歡喜五端",
       "audio": "a15",
       "picture": "p15",
@@ -186,7 +187,6 @@
     },
     {
       "name": "法蒂瑪聖母禱詞",
-
       "audio": "a4",
       "picture": "p15",
       "repeat": 1

@@ -1,7 +1,8 @@
-package com.javilet.samuel.rosary;
+package com.javilet.rosary;
 
 import android.app.Service;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.media.MediaPlayer;
 import android.os.Binder;
 import android.os.IBinder;
@@ -28,10 +29,13 @@ public class PlayerService extends Service implements MediaPlayer.OnCompletionLi
     private MediaPlayer mediaPlayer = null;
     private OnPlayerChangeListener onPlayerChangeListener = null;
     private OnPlayerFinishedListener onPlayerFinishedListener = null;
+    private OnPlayerRepeatListener onPlayerRepeatListener = null;
 
     private String mysteryName = "";
     private String name = "";
+    private String playingNameOnly = "";
     private String playingName = "";
+    private int repeat = 1;
     private JSONArray recordings = null;
 
     private int index = 0;
@@ -55,18 +59,29 @@ public class PlayerService extends Service implements MediaPlayer.OnCompletionLi
 
         int mysteryFile = R.raw.joyful_mysteries; // default
 
+        SharedPreferences sharedPreferences = getSharedPreferences("preferences", MODE_PRIVATE);
+        boolean traditional = sharedPreferences.getBoolean("traditional", true);
+
         switch (mysteryName) { // determines resource id based on mystery name
             case "joyful":
                 mysteryFile = R.raw.joyful_mysteries;
+                if (!traditional)
+                    mysteryFile = R.raw.joyful_mysteries_simplified;
                 break;
             case "sorrowful":
                 mysteryFile = R.raw.sorrowful_mysteries;
+                if (!traditional)
+                    mysteryFile = R.raw.sorrowful_mysteries_simplified;
                 break;
             case "glorious":
                 mysteryFile = R.raw.glorious_mysteries;
+                if (!traditional)
+                    mysteryFile = R.raw.glorious_mysteries_simplified;
                 break;
             case "luminous":
                 mysteryFile = R.raw.luminous_mysteries;
+                if (!traditional)
+                    mysteryFile = R.raw.luminous_mysteries_simplified;
                 break;
         }
 
@@ -92,7 +107,9 @@ public class PlayerService extends Service implements MediaPlayer.OnCompletionLi
         if (mediaPlayer == null) {
             try {
                 final JSONObject jsonObject = recordings.getJSONObject(index);
-                playingName = jsonObject.getString("name");
+                playingNameOnly = jsonObject.getString("name");
+                repeat = jsonObject.getInt("repeat");
+                playingName = playingNameOnly + (repeat > 1 ? " (" + (played + 1) + ")" : "");
                 int audioResourceId = getResources().getIdentifier(jsonObject.getString("audio"), "raw", this.getPackageName());
                 mediaPlayer = MediaPlayer.create(this, audioResourceId);
                 Log.i(TAG, "Preparing");
@@ -206,15 +223,15 @@ public class PlayerService extends Service implements MediaPlayer.OnCompletionLi
         String nextMysteryName = "stop";
         switch (mysteryName) { // determines resource id based on mystery name
             case "joyful":
+                nextMysteryName = "luminous";
+                break;
+            case "luminous":
                 nextMysteryName = "sorrowful";
                 break;
             case "sorrowful":
                 nextMysteryName = "glorious";
                 break;
             case "glorious":
-                nextMysteryName = "luminous";
-                break;
-            case "luminous":
                 nextMysteryName = "stop";
                 break;
         }
@@ -239,7 +256,12 @@ public class PlayerService extends Service implements MediaPlayer.OnCompletionLi
 
     private void repeat() {
         Log.i(TAG, "Repeat");
+        playingName = playingNameOnly + (repeat > 1 ? " (" + (played + 1) + ")" : "");
         mediaPlayer.seekTo(0);
+        if (onPlayerRepeatListener != null) {
+            Log.i(TAG, "On Change");
+            onPlayerRepeatListener.onRepeat(playingName);
+        }
         play();
     }
 
@@ -287,6 +309,10 @@ public class PlayerService extends Service implements MediaPlayer.OnCompletionLi
 
     public void setOnPlayerFinishedListener(OnPlayerFinishedListener listener) {
         onPlayerFinishedListener = listener;
+    }
+
+    public void setOnPlayerRepeatListener(OnPlayerRepeatListener listener) {
+        onPlayerRepeatListener = listener;
     }
 
     public class PlayerBinder extends Binder {

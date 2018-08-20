@@ -1,4 +1,4 @@
-package com.javilet.samuel.rosary;
+package com.javilet.rosary;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -12,8 +12,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.AppCompatDelegate;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -58,6 +61,12 @@ public class PlayerActivity extends AppCompatActivity {
                     @Override
                     public void onFinished() {
                         goBack(titleTextView);
+                    }
+                });
+                playerService.setOnPlayerRepeatListener(new OnPlayerRepeatListener() {
+                    @Override
+                    public void onRepeat(String playingName) {
+                        playingRecordingTitleTextView.setText(playingName);
                     }
                 });
             } catch (IOException e) {

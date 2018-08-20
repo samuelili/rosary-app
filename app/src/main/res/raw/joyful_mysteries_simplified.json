@@ -1,194 +1,194 @@
 {
-  "name": "痛苦奥迹",
+  "name": "欢喜奥迹",
   "recordings": [
     {
-      "_comment": "******************* 痛苦一端",
-      "title": "痛苦一端",
+      "_comment": "******************* 欢喜一端",
+      "title": "欢喜一端",
       "name": "十字圣号与信经",
       "audio": "a0",
-      "picture": "p21",
+      "picture": "p11",
       "repeat": 1
     },
     {
-      "name": "痛苦奥迹",
-      "audio": "a03",
+      "name": "欢喜奥迹",
+      "audio": "a01",
       "picture": "p11",
       "repeat": 1
     },
     {
       "name": "天主经",
       "audio": "a1",
-      "picture": "p21",
+      "picture": "p11",
       "repeat": 1
     },
     {
       "name": "圣母经",
       "audio": "a2",
-      "picture": "p21",
+      "picture": "p11",
       "repeat": 3
     },
     {
       "name": "圣三光荣经",
       "audio": "a3",
-      "picture": "p21",
+      "picture": "p11",
       "repeat": 1
     },
     {
-      "name": "痛苦一端",
-      "audio": "a21",
-      "picture": "p21",
-      "repeat": 1
-    },
-    {
-      "name": "天主经",
-      "audio": "a1",
-      "picture": "p21",
-      "repeat": 1
-    },
-    {
-      "name": "圣母经",
-      "audio": "a2",
-      "picture": "p21",
-      "repeat": 10
-    },
-    {
-      "name": "圣三光荣经",
-      "audio": "a3",
-      "picture": "p21",
-      "repeat": 1
-    },
-    {
-      "name": "法蒂玛圣母祷词",
-      "audio": "a4",
-      "picture": "p21",
-      "repeat": 1
-    },
-    {
-      "_comment": "******************* 痛苦二端",
-      "title": "痛苦二端",
-      "name": "痛苦二端",
-      "audio": "a22",
-      "picture": "p22",
+      "name": "欢喜一端",
+      "audio": "a11",
+      "picture": "p11",
       "repeat": 1
     },
     {
       "name": "天主经",
       "audio": "a1",
-      "picture": "p22",
+      "picture": "p11",
       "repeat": 1
     },
     {
       "name": "圣母经",
       "audio": "a2",
-      "picture": "p22",
+      "picture": "p11",
       "repeat": 10
     },
     {
       "name": "圣三光荣经",
       "audio": "a3",
-      "picture": "p22",
+      "picture": "p11",
       "repeat": 1
     },
     {
       "name": "法蒂玛圣母祷词",
       "audio": "a4",
-      "picture": "p22",
+      "picture": "p11",
       "repeat": 1
     },
     {
-      "_comment": "******************* 痛苦三端",
-      "title": "痛苦三端",
-      "name": "痛苦三端",
-      "audio": "a23",
-      "picture": "p23",
+      "_comment": "******************* 欢喜二端",
+      "title": "欢喜二端",
+      "name": "欢喜二端",
+      "audio": "a12",
+      "picture": "p12",
       "repeat": 1
     },
     {
       "name": "天主经",
       "audio": "a1",
-      "picture": "p23",
+      "picture": "p12",
       "repeat": 1
     },
     {
       "name": "圣母经",
       "audio": "a2",
-      "picture": "p23",
+      "picture": "p12",
       "repeat": 10
     },
     {
       "name": "圣三光荣经",
       "audio": "a3",
-      "picture": "p23",
+      "picture": "p12",
       "repeat": 1
     },
     {
       "name": "法蒂玛圣母祷词",
       "audio": "a4",
-      "picture": "p23",
+      "picture": "p12",
       "repeat": 1
     },
     {
-      "_comment": "******************* 痛苦四端",
-      "title": "痛苦四端",
-      "name": "痛苦四端",
-      "audio": "a24",
-      "picture": "p24",
+      "_comment": "******************* 欢喜三端",
+      "title": "欢喜三端",
+      "name": "欢喜三端",
+      "audio": "a13",
+      "picture": "p13",
       "repeat": 1
     },
     {
       "name": "天主经",
       "audio": "a1",
-      "picture": "p24",
+      "picture": "p13",
       "repeat": 1
     },
     {
       "name": "圣母经",
       "audio": "a2",
-      "picture": "p24",
+      "picture": "p13",
       "repeat": 10
     },
     {
       "name": "圣三光荣经",
       "audio": "a3",
-      "picture": "p24",
+      "picture": "p13",
       "repeat": 1
     },
     {
       "name": "法蒂玛圣母祷词",
       "audio": "a4",
-      "picture": "p24",
+      "picture": "p13",
       "repeat": 1
     },
     {
-      "_comment": "******************* 痛苦五端",
-      "title": "痛苦五端",
-      "name": "痛苦五端",
-      "audio": "a25",
-      "picture": "p25",
+      "_comment": "******************* 欢喜四端",
+      "title": "欢喜四端",
+      "name": "欢喜四端",
+      "audio": "a14",
+      "picture": "p14",
       "repeat": 1
     },
     {
       "name": "天主经",
       "audio": "a1",
-      "picture": "p25",
+      "picture": "p14",
       "repeat": 1
     },
     {
       "name": "圣母经",
       "audio": "a2",
-      "picture": "p25",
+      "picture": "p14",
       "repeat": 10
     },
     {
       "name": "圣三光荣经",
       "audio": "a3",
-      "picture": "p25",
+      "picture": "p14",
       "repeat": 1
     },
     {
       "name": "法蒂玛圣母祷词",
       "audio": "a4",
-      "picture": "p25",
+      "picture": "p14",
+      "repeat": 1
+    },
+    {
+      "_comment": "******************* 欢喜五端",
+      "title": "欢喜五端",
+      "name": "欢喜五端",
+      "audio": "a15",
+      "picture": "p15",
+      "repeat": 1
+    },
+    {
+      "name": "天主经",
+      "audio": "a1",
+      "picture": "p15",
+      "repeat": 1
+    },
+    {
+      "name": "圣母经",
+      "audio": "a2",
+      "picture": "p15",
+      "repeat": 10
+    },
+    {
+      "name": "圣三光荣经",
+      "audio": "a3",
+      "picture": "p15",
+      "repeat": 1
+    },
+    {
+      "name": "法蒂玛圣母祷词",
+      "audio": "a4",
+      "picture": "p15",
       "repeat": 1
     },
     {

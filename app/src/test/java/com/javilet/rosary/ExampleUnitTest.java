@@ -1,4 +1,4 @@
-package com.javilet.samuel.rosary;
+package com.javilet.rosary;
 
 import org.junit.Test;
 

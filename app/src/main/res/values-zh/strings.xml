@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">玫瑰经</string>
+    <string name="sorrowful_title">痛苦奥迹</string>
+    <string name="joyful_title">欢喜奥迹</string>
+    <string name="glorious_title">荣福奥迹</string>
+    <string name="luminous_title">光明奥迹</string>
+    <string name="luminous_subtitle">(周四)</string>
+    <string name="sorrowful_subtitle">(周二、五)</string>
+    <string name="glorious_subtitle">(周三、主日)</string>
+    <string name="joyful_subtitle">(周一、六)</string>
+</resources>
